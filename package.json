@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-gate-plus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Node-RED gate node that routes blocked messages to a second output instead of discarding them.",
   "keywords": [
     "node-red",
@@ -8,6 +8,18 @@
     "flow-control"
   ],
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBartoMan/node-red-contrib-gate-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheBartoMan/node-red-contrib-gate-plus/issues"
+  },
+  "homepage": "https://github.com/TheBartoMan/node-red-contrib-gate-plus#readme",
+  "engines": {
+    "node": ">=18",
+    "node-red": ">=3.0.0"
+  },
   "node-red": {
     "nodes": {
       "gate-plus": "gate-plus.js"
